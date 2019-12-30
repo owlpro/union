@@ -1,6 +1,8 @@
+<?php
+
 require_once __DIR__ . "/Union.php";
 
-class PriceCalculation extends Union
+class Example extends Union
 {
 
     protected function firstMethod(){
@@ -27,5 +29,5 @@ class PriceCalculation extends Union
     }
 }
 
-$life = new PriceCalculation();
-$life->start();
+$process = new Example();
+$process->start();
