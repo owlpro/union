@@ -1,4 +1,5 @@
-# Union Pattern
+# Union Pattern For ```PHP```
+php version: 7.2
 
 ### what is this ?
 this is a simple code for make a union pattern project 
@@ -28,12 +29,12 @@ $this->previous();
 ```
 
 ``` php
-//break process
+//break process:
 $this->break();
 ```
 
 ``` php
-//if this method called from 'method1' go next, else go 2 method later
+//if this method called from 'method1' go next, else go 2 method later:
 if($this->comesFrom('method1')){
     $this->next();
 }
